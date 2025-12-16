@@ -1,69 +1,29 @@
+# GXSwiftScan
 
-# iOS qrCode、barCode Swift Version
+[![CI Status](https://img.shields.io/travis/gaoguangxiao125@sina.com/GXSwiftScan.svg?style=flat)](https://travis-ci.org/gaoguangxiao125@sina.com/GXSwiftScan)
+[![Version](https://img.shields.io/cocoapods/v/GXSwiftScan.svg?style=flat)](https://cocoapods.org/pods/GXSwiftScan)
+[![License](https://img.shields.io/cocoapods/l/GXSwiftScan.svg?style=flat)](https://cocoapods.org/pods/GXSwiftScan)
+[![Platform](https://img.shields.io/cocoapods/p/GXSwiftScan.svg?style=flat)](https://cocoapods.org/pods/GXSwiftScan)
 
-[![Platform](https://img.shields.io/badge/platform-iOS-red.svg)](https://developer.apple.com/iphone/index.action)
-[![Language](http://img.shields.io/badge/language-swift4.0-yellow.svg?style=flat
-             )](https://en.wikipedia.org/wiki/swift)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](http://mit-license.org)
+## Example
 
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+## Requirements
 
-### Objective-c Version: **[LBXScan](https://github.com/MxABC/LBXScan)**
+## Installation
 
-### [中文介绍](https://github.com/MxABC/swiftScan/blob/master/README-Chinese.md)
-
-
-## Introduce
-#### Swift: The packaging system API comes with scan code and image recognition function
-
-- scan code interface
-- QR code and bar code recognition and generation
-- image recognition from the Album (Test results are not good)
-
-#### **Imitate other app**
-
-1、 QQ scan code interface
-2、Alipay scan code interface
-3、Wechat scan code interface
-
-#### **Other settings parameters custom effects**
-- The background color can be set around the scan frame
-- Scan code frame color can also be set
-- Scan code box 4 corners of the color can be set, the size can be set
-- Can only be set to identify the scan code box in the image area
-- Scan code can be set to get the current picture
-- According to the results of the scan code， can intercept part of the image
-- Animation options: Line up and down、Grid form movement、Middle line not moving（use for bar code scanning commonly）
-
-
-
-### Installation with CocoaPods
-
-
+GXSwiftScan is available through [CocoaPods](https://cocoapods.org). To install
+it, simply add the following line to your Podfile:
 
 ```ruby
-platform :ios, '8.0'
-use_frameworks!
-pod 'swiftScan', :git => 'https://github.com/MxABC/swiftScan.git'
+pod 'GXSwiftScan'
 ```
 
+## Author
 
-### manually
-download and copy the Source folder to your project
+gaoguangxiao125@sina.com, gaoguangxiao125@sina.com
 
+## License
 
-
-## View effect
-
-
-![image](https://github.com/MxABC/swiftScan/blob/master/ScreenShots/page1.jpg)
-![image](https://github.com/MxABC/swiftScan/blob/master/ScreenShots/page2.jpg)
-![image](https://github.com/MxABC/swiftScan/blob/master/ScreenShots/page3.jpg)
-![image](https://github.com/MxABC/swiftScan/blob/master/ScreenShots/page4.jpg)
-![image](https://github.com/MxABC/swiftScan/blob/master/ScreenShots/page5.jpg)
-![image](https://github.com/MxABC/swiftScan/blob/master/ScreenShots/page6.jpg)
-![image](https://github.com/MxABC/swiftScan/blob/master/ScreenShots/page7.jpg)
-![image](https://github.com/MxABC/swiftScan/blob/master/ScreenShots/page8.jpg)
-![image](https://github.com/MxABC/swiftScan/blob/master/ScreenShots/page9.jpg)
-![image](https://github.com/MxABC/swiftScan/blob/master/ScreenShots/page10.jpg)
-![image](https://github.com/MxABC/swiftScan/blob/master/ScreenShots/page11.jpg)
+GXSwiftScan is available under the MIT license. See the LICENSE file for more info.

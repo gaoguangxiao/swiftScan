@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'GXSwiftScan_Example' do
+  pod 'GXSwiftScan', :path => '../'
+
+  target 'GXSwiftScan_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

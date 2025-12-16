@@ -1,0 +1,6 @@
+framework module GXSwiftScan {
+  umbrella header "GXSwiftScan-umbrella.h"
+
+  export *
+  module * { export * }
+}

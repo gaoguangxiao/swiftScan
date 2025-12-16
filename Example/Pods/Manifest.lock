@@ -1,0 +1,16 @@
+PODS:
+  - GXSwiftScan (0.1.0)
+
+DEPENDENCIES:
+  - GXSwiftScan (from `../`)
+
+EXTERNAL SOURCES:
+  GXSwiftScan:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GXSwiftScan: 267186646b824f4269939629dd2c99d44844e0fd
+
+PODFILE CHECKSUM: d177099c771b7dc159ef1bfca185243421a65eb1
+
+COCOAPODS: 1.16.2
