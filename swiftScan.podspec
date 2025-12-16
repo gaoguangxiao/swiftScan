@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = 'swiftScan'
-    s.version      = '1.2.2'
+    s.version      = '1.2.3'
     s.summary      = 'fix: remove AssetsLibrary'
     s.homepage     = 'https://github.com/gaoguangxiao/swiftScan'
     s.license      = 'MIT'
